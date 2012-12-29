@@ -6,30 +6,30 @@
 # Checkout app/assets/stylesheets/variables.css.scss to change around the CSS quickly
 
 # Set your project goal here - if you manually want to adjust your progress to test the site, head over to the Order model (app/models/order.rb)
-project_goal: 100
+project_goal: 1000
 # If you want to edit the FAQ, head over to app/views/preorder/homepage/_faqs.html.erb
 
 # This'll be both the page title (<title></title>) and the name in the header
-product_name: "Selfstarter"
+product_name: "Employ America"
 
 # An image showcasing your product -- it'll show up when you pin your product
 # It should be in app/assets/images
 product_image_path: "my-product-image.png"
 
 # The message on the preorder page, Lockitron's 
-value_proposition: "Roll your own crowdfunding"
+value_proposition: "Get your work done with American crowds."
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
-video_embed_url: "https://www.youtube.com/v/D1L3o88GKew"
+video_embed_url: "http://player.vimeo.com/video/42157657"
 
 # Amazon settings -- you'll need an Amazon Payments account, sign up here --> http://bit.ly/SGksTv
 
 # To find your access key and secret key, head over to here --> http://bit.ly/R4I4ky (Follow that guide in the Seller Central page)
 amazon_access_key: "YOUR_AMAZON_ACCESS_KEY"
 amazon_secret_key: "YOUR_AMAZON_SECRET_KEY"
-price: 	19.95
+price: 	10
 
-payment_description: "You really should change this text because people will see it on Amazon's order page!!!!!"
+payment_description: "MobileWorks services by American MobileWorkers."
 
 # Amazon limits how much we can charge people with their Multi-Use tokens.
 # You probably should add some leeway to account for international shipping
@@ -38,7 +38,7 @@ charge_limit: 25.00
 # Stats settings
 
 # On Lockitron, it's "backers"
-primary_stat: "backers"
+primary_stat: "purchased"
 # This'll show up in the tweet as, "I'm forker number ..."
 primary_stat_verb: 'backer'
 
@@ -46,7 +46,7 @@ primary_stat_verb: 'backer'
 middle_reserve_text: "Reserve Now"
 
 # When the project should end
-expiration_date: <%= DateTime.now + 29 %>
+expiration_date: <%= DateTime.now + 14 %>
 
 # Text to show inside the progress bar, when the goal reaches/exceeds 100%
 progress_text: "Implemented"
@@ -54,12 +54,12 @@ progress_text: "Implemented"
 # Call to action section
 
 # On Lockitron, it's "First Batch Ships in March 2013"
-ships: "Ships...sometime"
+ships: "Work starts February 2012"
 
 # On Lockitron, it's "Reserve Now"
 call_to_action: "Reserve Now"
 # On Lockitron, this is "Only $149 for a limited time"
-price_human: "It costs money!"
+price_human: "Only $12 per hour."
 
 # The paragraph below the price. You'd probably say something about how you're not going to charge them before it ships (so it's less risky).
 dont_give_them_a_reason_to_say_no: "You'll get this exact site. All you'll need to get started is a great product."
