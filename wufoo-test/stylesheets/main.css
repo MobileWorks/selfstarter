@@ -1,0 +1,110 @@
+/* Created by MobileWorks  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+
+/* -----------------------------------------
+   Universal overrides
+----------------------------------------- */
+
+
+/* -----------------------------------------
+   Typography
+----------------------------------------- */
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #D02525;
+	text-shadow: 0 1px 1px #003D5A;
+}
+h1 .for {
+	font-family: 'Crimson Text', serif;	
+	color: #D02525;
+	font-style: italic;
+	text-shadow: 0 1px 1px #003D5A;
+	font-weight: 600;
+}
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #043B5A;
+}
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #0072A5;
+}
+h4 {
+	font-family: 'Crimson Text', serif;	
+	color: #D02525;
+	font-weight: bold;
+}
+p {
+	font-family: 'Crimson Text', serif;	
+	color: #043B5A;
+}
+
+
+
+/* -----------------------------------------
+   Navigation
+----------------------------------------- */
+
+menu {
+	margin: 0;
+}
+#nav {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #333;
+	font-weight: bold;
+}
+
+#nav li {
+	display: inline;
+	margin-right: 30px;
+}
+#nav a {
+color: #222;
+font-size: 16px;
+}
+
+#nav li a:hover {
+	color: #D02525;
+}
+
+#nav li:before {
+    content: url('../images/star.png');
+    font-size: 16px;
+    line-height: 16px;
+	margin: 0 8px 0 0;
+}
+
+
+/* -----------------------------------------
+   Content Blocks and Containers
+----------------------------------------- */
+
+#header {
+	text-align: center;
+	background: #F4EFE0 url("../images/backgrounds/yellow-hex.png") repeat;
+}
+#value_prop {
+	background: url("../images/backgrounds/blue-noise.png") repeat;
+}
+#value_prop p{
+	color: white;
+	font-size: 18px;
+	
+}
+#value_prop h2 {
+	color: white;
+}
+
