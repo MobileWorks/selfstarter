@@ -44,15 +44,20 @@ h3 {
 }
 h4 {
 	font-family: 'Crimson Text', serif;	
-	color: #D02525;
+	color: #043B5A;
 	font-weight: bold;
+	font-size: 20px;
 }
 p {
 	font-family: 'Crimson Text', serif;	
 	color: #043B5A;
+	font-size: 16px;
+	line-height: 1.5;
 }
 
-
+.italic {
+	font-style: italic;
+}
 
 /* -----------------------------------------
    Navigation
@@ -65,6 +70,7 @@ menu {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #333;
 	font-weight: bold;
+	margin: 25px 0 0 0;
 }
 
 #nav li {
@@ -88,6 +94,65 @@ font-size: 16px;
 }
 
 
+
+/* -----------------------------------------
+   Buttons
+----------------------------------------- */
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	padding: .9em 1.6em .6em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	-webkit-border-radius: .3em; 
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+	-moz-box-shadow:    1px 1px 1px 0px rgba(34,34,34,0.75);
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(34,34,34,0.75);
+	box-shadow:         1px 1px 1px 0px rgba(34,34,34,0.75);
+	
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.blue {
+    color: #ffffff;
+    background: #0072A5;
+	border: solid 1px #4598bc;
+}
+.blue:hover {
+    color: #ffffff;
+    background: #0091D1;
+}
+.red {
+    color: #ffffff;
+    background: #BA2121;
+}
+.red:hover {
+    color: #ffffff;
+    background: #D02525;;
+}
+.bigbutton_container {
+	margin-top: -40px;
+	padding-bottom: 40px;
+}
+.bigbutton {
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.2;
+}
+
+
 /* -----------------------------------------
    Content Blocks and Containers
 ----------------------------------------- */
@@ -95,9 +160,11 @@ font-size: 16px;
 #header {
 	text-align: center;
 	background: #F4EFE0 url("../images/backgrounds/yellow-hex.png") repeat;
+	padding: 20px 0 10px 0;
 }
 #value_prop {
 	background: url("../images/backgrounds/blue-noise.png") repeat;
+	padding: 30px 0 60px 0; /*bottom padding needs to be at least 40px to account for the big button */
 }
 #value_prop p{
 	color: white;
@@ -107,4 +174,23 @@ font-size: 16px;
 #value_prop h2 {
 	color: white;
 }
+.headline_pairing h2{
+	margin-bottom:0;
+}
+.headline_pairing h3{
+	margin-top:0;
+}
+.headling_pairing {
+	margin: 10px 0 20px 0;
+}
+
+.hurry p {
+	color: #336600;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
 
