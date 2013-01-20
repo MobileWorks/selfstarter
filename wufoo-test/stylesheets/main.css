@@ -96,6 +96,26 @@ font-size: 16px;
 
 
 /* -----------------------------------------
+   Footer
+----------------------------------------- */
+
+#footercontainer {
+	background-color: #222;
+}
+#footer {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	margin: 25px 0 0 0;
+	color: white;
+	text-align:center;
+}
+.footerlist li {
+	text-decoration: none;
+}
+
+
+
+/* -----------------------------------------
    Buttons
 ----------------------------------------- */
 
@@ -145,6 +165,7 @@ font-size: 16px;
 .bigbutton_container {
 	margin-top: -40px;
 	padding-bottom: 40px;
+	text-align: center;
 }
 .bigbutton {
 	font-size: 18px;
@@ -152,6 +173,25 @@ font-size: 16px;
 	line-height: 1.2;
 }
 
+
+/* -----------------------------------------
+   Shapes
+----------------------------------------- */
+
+
+.circlenum {
+	font-family: 'Crimson Text', serif;	
+	font-weight: 200;
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	border-radius: 50%;
+	width: 37px;
+	height: 37px;
+	background: #003D5A;
+	text-align: center;
+	padding-top: 6px;
+}
 
 /* -----------------------------------------
    Content Blocks and Containers
@@ -184,6 +224,10 @@ font-size: 16px;
 	margin: 10px 0 20px 0;
 }
 
+.projectlist {
+	padding-bottom: 60px;
+}
+
 .hurry p {
 	color: #336600;
 	font-family: 'Josefin Sans', sans-serif;
@@ -191,6 +235,48 @@ font-size: 16px;
 	font-style: italic;
 	font-weight: bold;
 }
-
-
-
+.map {
+	text-align: center;
+}
+.mapcaption {
+	font-style: italic;
+	text-align: center;
+	line-height: 1.2;
+	font-family: 'Crimson Text', serif;	
+	color: #043B5A;
+	font-size: 16px;
+}
+#howitworks {
+	background: url("../images/backgrounds/red-noise.png") repeat;
+	padding: 30px 0 80px 0; 
+}
+#howitworks h2 {
+	color: #F4EFE0;
+	text-shadow: 1px 1px 1px #003D5A;
+	margin-bottom: 40px;
+}
+#howitworks p {
+	color: #F4EFE0;
+	line-height: 1.5;
+	font-size: 18px;
+}
+.circlewrap {
+	height:100px;
+	position: relative;
+	float: left;
+	margin-right: 15px;
+}
+#faq {
+	background: url("../images/backgrounds/waffle.png") repeat;
+	padding: 30px 0 80px 0;
+}
+#faq h2 {
+	color: #993300;
+}
+#faq h4 {
+	color: #993300;
+	margin-bottom: 0;
+}
+.faqset {
+	margin: 30px 0;
+}
