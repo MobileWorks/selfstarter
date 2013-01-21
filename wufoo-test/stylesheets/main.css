@@ -71,6 +71,7 @@ menu {
 	color: #333;
 	font-weight: bold;
 	margin: 25px 0 0 0;
+	text-align: center;
 }
 
 #nav li {
@@ -99,21 +100,30 @@ font-size: 16px;
    Footer
 ----------------------------------------- */
 
-#footercontainer {
-	background-color: #222;
-}
 #footer {
 	font-family: 'Josefin Sans', sans-serif;
-	font-weight: bold;
-	margin: 25px 0 0 0;
 	color: white;
-	text-align:center;
-}
-.footerlist li {
-	text-decoration: none;
+	font-weight: bold;
+	background-color: #222;
+	text-align: center;
+	padding: 30px 0 50px 0;
 }
 
-
+#footer li {
+	display: inline;
+	margin-right: 30px;
+}
+#footer a {
+	color: white;
+	font-size: 14px;
+}
+#footer p {
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	font-weight: bold;
+	background-color: #222;
+	font-size: 14px;
+}
 
 /* -----------------------------------------
    Buttons
@@ -191,6 +201,10 @@ font-size: 16px;
 	background: #003D5A;
 	text-align: center;
 	padding-top: 6px;
+}
+
+.heart {
+	color: red;
 }
 
 /* -----------------------------------------
